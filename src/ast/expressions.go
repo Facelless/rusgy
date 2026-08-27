@@ -3,11 +3,11 @@ package ast
 import "src/src/lexer"
 
 type NumberExpr struct {
-	value float64
+	Value float64
 }
 
 type StringExpr struct {
-	value string
+	Value string
 }
 
 type SymbolExpr struct {
